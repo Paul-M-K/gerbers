@@ -1,21 +1,31 @@
-Here's some gerbers to get yourself into trouble with. You should be able to just drop the gerber zip file into JLCPCB. If you also want to have some of the 
-PCBA done, I've included a BOM and CPL that has all the info for the diodes and the battery connector.
+# Preface
 
-****UPDATE 05/20/23 PLEASE READ*****
+First off thanks to Jon for doing all the work. 
 
-If you do not opt for PCBA, please note that the diode markers should face the square through hole connection.
+None of this is my work; I have not changed any files, so 100% none is mine.
 
-It's not the end of the world if you go the other way, but the firmware has to be adjusted to account for that. I've created a new generic firmware based on the startup files I included that goes row2col instead of col2row.
+My goal for this fork is to try to help other noobies build their first keyboard. I have done enough research, and I want to pass on this knowledge to others if they stumble upon this guide.
 
-****END UPDATE****
+# Chapter 1: Keyboard layout.
 
-SVG files can be imported into Fusion 360 to create a sketch to start the case making fun. They are pulled from the PCB Edge Cuts.
+Write stuff about the keyboard, maybe some history. Write about how this keyboard is for Choc switches; it is for hot swap only, and there is no spot for soldering. There is no top case either, so we will see.
 
-***EDIT***
+Put some interesting links to add graphics or to reconfigure the board. 
 
-04/14/23 Updated ZMK starter files to work with latest ZMK updates.
+# Chatper 2: Parts.
 
-04/09/23 Adding some links to parts and pics.
+Now that we are familiar with the keyboard and you know this is what you want.
+
+# Chapter 3: Ordering.
+
+Now that we are familiar with the parts of the keyboard, it is safe to start ordering them.
+
+
+
+
+
+
+
 
 More pics to look at for guidance on building: https://imgur.com/a/QKp5wG5
 
