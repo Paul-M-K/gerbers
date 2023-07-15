@@ -40,39 +40,60 @@ For the other parts, you will have to source from other places. You can source t
 
 Ordering the PCB and Case where the hardest thing for me to understand. I was a little nervous at first, but after some research, I am pretty confident in what needs to be done. I don't know what is best, but I will update this if I find something better. 
 
+### Order PCB + Diodes + Battery Connector
+
 1) Alright, so first, let's hop on over to [JLCPCB](https://cart.jlcpcb.com/quote)
 ![image](https://github.com/Paul-M-K/gerbers/assets/20325116/41f950fa-5e14-4b72-8d7f-43001f7bc285)
 
 2) Click and open the Zip file. This file holds the Gerber file that the manufacturer needs to create the PCB.  
 ![image](https://github.com/Paul-M-K/gerbers/assets/20325116/0c1a2e8c-52cb-4fba-8954-12816eb1ba09)
 
-3) Here is the list of items that I selected for my build. Feel free to pick whatever colour you want. Just note that the price will change with HASL Lead Free for certain colours.
-![image](https://github.com/Paul-M-K/gerbers/assets/20325116/d8a45c6e-6803-4972-a6b1-a3cd7b044b44)
+3) Here is the list of items I selected for my build. Feel free to pick whatever colour you want. Just note that the price will change with HASL Lead-Free for certain colours.
+![image](https://github.com/Paul-M-K/gerbers/assets/20325116/66bd125a-fdf0-4272-9673-b825222c4c38)
 
-4) Click on the PCB Assembly and add these settings, and click confirm.
+5) Click on the PCB Assembly and add these settings, and click confirm.
 ![image](https://github.com/Paul-M-K/gerbers/assets/20325116/2aab36fc-1278-4f44-8f6c-f87c531e9098)
 
-5) upload BOM and CPL Files. click confirm
+6) upload BOM and CPL Files. click confirm
 ![image](https://github.com/Paul-M-K/gerbers/assets/20325116/ae5c99b0-dc83-41bf-a8fe-fea4b5aae710)
-
 add BOM 
 ![image](https://github.com/Paul-M-K/gerbers/assets/20325116/808ba121-1573-43d0-aa83-78b6466dfa88)
 ![image](https://github.com/Paul-M-K/gerbers/assets/20325116/25e521ff-f653-437b-8aae-584e2d228d45)
-
 add CPL
 ![image](https://github.com/Paul-M-K/gerbers/assets/20325116/d9c30c97-732e-4510-85c6-31a1eb3bd4fa)
 ![image](https://github.com/Paul-M-K/gerbers/assets/20325116/9b0f8885-91e3-4fc1-95ca-27cfc0392b43)
-
-clock process BOM and CPL
+click process BOM and CPL
 ![image](https://github.com/Paul-M-K/gerbers/assets/20325116/c15b9a56-1508-4902-b9ff-636e6ca73b0b)
 
-6) Search for parts. In Jon's guide, he does have the part numbers, but they are in the issues section, so its not that easy to find.
-first we can add the power connector
+7) Search for parts. In Jon's guide, he does have the part numbers, but they are in the issues section, so its not that easy to find.
+first, we can add the power connector
 ![image](https://github.com/Paul-M-K/gerbers/assets/20325116/dc88c641-60ee-4316-b6ae-5ba909735c8a)
-next we can add the diodes
+next, we can add the diodes
 ![image](https://github.com/Paul-M-K/gerbers/assets/20325116/c8daaca7-0fa6-4d91-a149-268ad0587170)
-once added we can hit next
+once added, we can hit next
 ![image](https://github.com/Paul-M-K/gerbers/assets/20325116/3f7961f0-c3c1-426f-be32-b67d9f101b89)
+we can inspect everything by looking at the 3d render and we can click next
+![image](https://github.com/Paul-M-K/gerbers/assets/20325116/18ff9d9a-1cc4-4c2e-a1e8-05401e577bfc)
+inspect your build, add a description and hit add to cart.
+![image](https://github.com/Paul-M-K/gerbers/assets/20325116/2ec4a01d-75b0-45b3-aa35-23dfe2403841)
+
+### Order Case
+1) now we need to head back to [JLCPCB](https://cart.jlcpcb.com/quote) and click on 3D printing and add the Case Right and Left file.
+![image](https://github.com/Paul-M-K/gerbers/assets/20325116/392708b2-c185-4535-a20b-8cda15ef86c9)
+add the Left stl file and then the right stl file. 
+![image](https://github.com/Paul-M-K/gerbers/assets/20325116/08a7aa2d-df76-404f-8739-54176de6fde4)
+after adding both STL files you will see something like this. Note that I am adding 2 cases for both right and left, this is not needed. I want two just incase I mess something up.
+![image](https://github.com/Paul-M-K/gerbers/assets/20325116/cc200d0a-f707-4e8d-9c40-6523bb367d83)
+
+### Buy PCB and Case
+1) As a final check here is what I have. Now you should be able to checkout and get you PCB ordered!
+![image](https://github.com/Paul-M-K/gerbers/assets/20325116/ea48899d-1091-4580-8b00-42eae382cd95)
+
+
+
+
+
+
 
 
 
