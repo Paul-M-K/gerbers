@@ -21,14 +21,14 @@ We can then extract these files. Feel free to browse them and try to familiarize
 
 
 
-# Chatper 2: Parts.
+# Step 3: Parts.
 
-Jon was kind enough to include a BOM, but there are some missing information that you can find on his git. But for completeness' sake, I am adding my CSV plus the table you see below.
+Jon was kind enough to include a BOM, but there is some missing information that you can find on his git. But for completeness' sake, I am adding my CSV plus the table you see below.
 
 The table below shows the parts that you will buy from JLCPCB
 | Part | Count | Description | Link | Notes |
 | ------------- | ------------- |------------- | ------------- | ------------- |
-| PCB | 1 | When Gerber is uploaded to JLCPCB it will create the left and right board | [JLCPCB](https://cart.jlcpcb.com/quote) | A minimum of 5 will be ordered at once |
+| PCB | 2 | When Gerber is uploaded to JLCPCB it will create 1 board and show the top and bottom. | [JLCPCB](https://cart.jlcpcb.com/quote) | A minimum of 5 will be ordered at once |
 |  Case - Right  |  1  |  use whatever material you want. However, I went with  8111X Resin, White  |  [JLCPCB](https://cart.jlcpcb.com/quote)   |  only one is created at a time   |
 |  Case - Left  |  1  |  use whatever material you want. However, I went with  8111X Resin, White  |  [JLCPCB](https://cart.jlcpcb.com/quote)   |  only one is created at a time   |
 |  Battery Connector  |  2  |  C505023 - Pico EZmate  | [JLCPCB](https://cart.jlcpcb.com/quote)  | you can check [LCSC}(https://www.lcsc.com/product-detail/Switching-Diode_Shenzhen-Jinkaisheng-Elec-1N4148SOD-323_C2972761.html) with this part number, but ultimately you will add this part to your PCBA and have the factory install it for you.  |
@@ -38,7 +38,54 @@ For the other parts, you will have to source from other places. You can source t
 
 # Chapter 3: Ordering.
 
-Now that we are familiar with the parts of the keyboard, it is safe to start ordering them.
+Ordering the PCB and Case where the hardest thing for me to understand. I was a little nervous at first, but after some research, I am pretty confident in what needs to be done. I don't know what is best, but I will update this if I find something better. 
+
+1) Alright, so first, let's hop on over to [JLCPCB](https://cart.jlcpcb.com/quote)
+![image](https://github.com/Paul-M-K/gerbers/assets/20325116/41f950fa-5e14-4b72-8d7f-43001f7bc285)
+
+2) Click and open the Zip file. This file holds the Gerber file that the manufacturer needs to create the PCB.  
+![image](https://github.com/Paul-M-K/gerbers/assets/20325116/0c1a2e8c-52cb-4fba-8954-12816eb1ba09)
+
+3) Here is the list of items that I selected for my build. Feel free to pick whatever colour you want. Just note that the price will change with HASL Lead Free for certain colours.
+![image](https://github.com/Paul-M-K/gerbers/assets/20325116/d8a45c6e-6803-4972-a6b1-a3cd7b044b44)
+
+4) Click on the PCB Assembly and add these settings, and click confirm.
+![image](https://github.com/Paul-M-K/gerbers/assets/20325116/2aab36fc-1278-4f44-8f6c-f87c531e9098)
+
+5) upload BOM and CPL Files. click confirm
+![image](https://github.com/Paul-M-K/gerbers/assets/20325116/ae5c99b0-dc83-41bf-a8fe-fea4b5aae710)
+
+add BOM 
+![image](https://github.com/Paul-M-K/gerbers/assets/20325116/808ba121-1573-43d0-aa83-78b6466dfa88)
+![image](https://github.com/Paul-M-K/gerbers/assets/20325116/25e521ff-f653-437b-8aae-584e2d228d45)
+
+add CPL
+![image](https://github.com/Paul-M-K/gerbers/assets/20325116/d9c30c97-732e-4510-85c6-31a1eb3bd4fa)
+![image](https://github.com/Paul-M-K/gerbers/assets/20325116/9b0f8885-91e3-4fc1-95ca-27cfc0392b43)
+
+clock process BOM and CPL
+![image](https://github.com/Paul-M-K/gerbers/assets/20325116/c15b9a56-1508-4902-b9ff-636e6ca73b0b)
+
+6) Search for parts. In Jon's guide, he does have the part numbers, but they are in the issues section, so its not that easy to find.
+first we can add the power connector
+![image](https://github.com/Paul-M-K/gerbers/assets/20325116/dc88c641-60ee-4316-b6ae-5ba909735c8a)
+next we can add the diodes
+![image](https://github.com/Paul-M-K/gerbers/assets/20325116/c8daaca7-0fa6-4d91-a149-268ad0587170)
+once added we can hit next
+![image](https://github.com/Paul-M-K/gerbers/assets/20325116/3f7961f0-c3c1-426f-be32-b67d9f101b89)
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
