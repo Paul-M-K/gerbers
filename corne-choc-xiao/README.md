@@ -16,10 +16,7 @@ Put some interesting links to add graphics or to reconfigure the board.
 The first thing we will want to do is download the zip file from [JonMuller's Git](https://github.com/JonMuller/gerbers)
 
 ![image](https://github.com/Paul-M-K/gerbers/assets/20325116/8228b225-5462-44fb-96c7-5b29d1842bc7)
-
-We will then extract the files. and we can inspect the files. 
-
-![image](https://github.com/Paul-M-K/gerbers/assets/20325116/f2f4ea1b-5584-454d-a8e4-bf54c07c2eca)
+We can then extract these files. Feel free to browse them and try to familiarize yourself with them.
 
 
 
