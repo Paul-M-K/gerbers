@@ -23,7 +23,18 @@ We can then extract these files. Feel free to browse them and try to familiarize
 
 # Chatper 2: Parts.
 
-Now that we are familiar with the keyboard and you know this is what you want.
+Jon was kind enough to include a BOM, but there are some missing information that you can find on his git. But for completeness' sake, I am adding my CSV plus the table you see below.
+
+The table below shows the parts that you will buy from JLCPCB
+| Part | Count | Description | Link | Notes |
+| ------------- | ------------- |------------- | ------------- | ------------- |
+| PCB | 1 | When Gerber is uploaded to JLCPCB it will create the left and right board | [JLCPCB](https://cart.jlcpcb.com/quote) | A minimum of 5 will be ordered at once |
+|  Case - Right  |  1  |  use whatever material you want. However, I went with  8111X Resin, White  |  [JLCPCB](https://cart.jlcpcb.com/quote)   |  only one is created at a time   |
+|  Case - Left  |  1  |  use whatever material you want. However, I went with  8111X Resin, White  |  [JLCPCB](https://cart.jlcpcb.com/quote)   |  only one is created at a time   |
+|  Battery Connector  |  2  |  C505023 - Pico EZmate  | [JLCPCB](https://cart.jlcpcb.com/quote)  | you can check [LCSC}(https://www.lcsc.com/product-detail/Switching-Diode_Shenzhen-Jinkaisheng-Elec-1N4148SOD-323_C2972761.html) with this part number, but ultimately you will add this part to your PCBA and have the factory install it for you.  |
+|  Diodes  |    |  C2972761 - diodes  | [JLCPCB](https://cart.jlcpcb.com/quote)  | you can check [LCSC}(https://www.lcsc.com/product-detail/Switching-Diode_Shenzhen-Jinkaisheng-Elec-1N4148SOD-323_C2972761.html) with this part number, but ultimately you will add this part to your PCBA and have the factory install it for you.  |
+
+For the other parts, you will have to source from other places. You can source them yourself. Check CSV for more information.
 
 # Chapter 3: Ordering.
 
