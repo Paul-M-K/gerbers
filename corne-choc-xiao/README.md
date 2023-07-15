@@ -1,16 +1,27 @@
 # Preface
 
-First off thanks to Jon for doing all the work. 
+First off, thanks to Jon for doing all the work. 
 
 None of this is my work; I have not changed any files, so 100% none is mine.
 
-My goal for this fork is to try to help other noobies build their first keyboard. I have done enough research, and I want to pass on this knowledge to others if they stumble upon this guide.
+My goal for this fork is to help other noobies build their first keyboard. I have done enough research, and I want to pass on this knowledge to others if they stumble upon this guide.
 
-# Chapter 1: Keyboard layout.
+# Step 1: Keyboard layout (optional read - good idea to read to learn about the keyboard).
 
 Write stuff about the keyboard, maybe some history. Write about how this keyboard is for Choc switches; it is for hot swap only, and there is no spot for soldering. There is no top case either, so we will see.
 
 Put some interesting links to add graphics or to reconfigure the board. 
+
+# Step 2: Prerequisites
+The first thing we will want to do is download the zip file from [JonMuller's Git](https://github.com/JonMuller/gerbers)
+
+![image](https://github.com/Paul-M-K/gerbers/assets/20325116/8228b225-5462-44fb-96c7-5b29d1842bc7)
+
+We will then extract the files. and we can inspect the files. 
+
+![image](https://github.com/Paul-M-K/gerbers/assets/20325116/f2f4ea1b-5584-454d-a8e4-bf54c07c2eca)
+
+
 
 # Chatper 2: Parts.
 
