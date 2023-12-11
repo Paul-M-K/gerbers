@@ -121,7 +121,7 @@
                 default_layer {
 // -----------------------------------------------------------------------------------------
 // |  Q  |  W  |  E  |  R  |  T  |   |  Y  |  U   |  I  |  O  |  P  | 
-// |  A  |  S  |  D  |  F  |  G  |   |  H  |  J   |  K  |  L  |  ;  |
+// |  A  |  S  |  D  |  F  |  G  |   |  H  |  J   |  K  |  L  |  '  |
 // |  Z  |  X  |  C  |  V  |  B  |   |  N  |  M   |  ,  |  .  |  /  | 
 //             | GUI | LWR | ENT |   | SPC | RSE  | ALT |
                         bindings = <
@@ -133,7 +133,11 @@
 		label = "BASE";
                 };
                 lower_layer {
-
+// -----------------------------------------------------------------------------------------
+// |  BT1 |     BT2    |     BT3    |    BT4    |  BT_CLR   |   |  PGUP  |  7   |    8   |  9  |  BSPC  | 
+// |  F2  |  LCTRL F3  |  LSHFT F4  |  LALT F5  |  LGUI F6  |   |  PGDN  |  4   |    5   |  6  |    \   |
+// |  F7  |     F8     |     F10    |    F11    |    F12    |   |  INS   |  1   |    2   |  3  |   ENT  | 
+//                     |     SHFT   |           |   ALT ENT |   | CTRL F1|  0   | SHFT . |
                         bindings = <
    &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_CLR     &kp PG_UP &kp N7 &kp N8 &kp N9 &kp BSPC
    &kp F2       &hm LCTRL F3  &hm LSHFT F4  &hm LALT F5  &hm LGUI F6         &kp PG_DN &kp N4 &kp N5 &kp N6 &kp BSLH
@@ -144,7 +148,11 @@
                 };
 
                 raise_layer {
-
+// -----------------------------------------------------------------------------------------
+// |   !   |   @    |   #   |   $   |     %     |   |  ^  |  &  |   *   |  (  |  )  | 
+// |  TAB  |  CAPS  |  F13  |  TOG  |    LGUI   |   |  -  |  =  |   {   |  }  |  |  |
+// |  ESC  |    `   |   ?   |   F9  |     F17   |   |  _  |  +  |   [   |  ]  |  \  | 
+//                  |  CRTL |   ALT |  SHFT INS |   | ENT |     | ALT ~ |
                         bindings = <
    &kp EXCL &kp AT &kp HASH &kp DLLR &kp PRCNT             &kp CARET &kp AMPS  &kp KP_MULTIPLY &kp LPAR &kp RPAR 
    &kp TAB   &kp CAPS &kp F13   &out OUT_TOG &kp LGUI      &kp MINUS &kp EQUAL &kp LBRC &kp RBRC &kp PIPE 
@@ -155,7 +163,11 @@
 		};
 		
 		danger_layer {
-
+// -----------------------------------------------------------------------------------------
+// |   BL  |  @  |   #    |   PB   |   SLCK  |   |  Vol + |     | hello |  DEL  |   BL   | 
+// |       |     |  SHFT  |   UP   |  PSCRN  |   |  Vol - |     |       |  up   |    ;   |
+// | LNLCK |     |  left  |  down  |   right |   |  mute  |     |  left |  down |  right | 
+//                |       |        |         |   |        |     |       |
                         bindings = <
    &bootloader  &kp AT &kp HASH &kp PAUSE_BREAK &kp SLCK              &kp C_VOL_UP &hm LC(V) LC(C)  &hello &kp LC(LA(DEL)) &bootloader 
    &trans   &trans &kp LC(LSHFT)  &mt LSHFT UP   &mt LCTRL PSCRN   &kp C_VOL_DN &trans &trans        &kp UP &kp SEMI 
